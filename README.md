@@ -5,6 +5,8 @@ This python script is based of Pytube2 and Pydrive. A simple python script that 
 
 Pydrive is used to interact with Google Drive via API. You must have OAuth Client ID and Client Secret to upload downloaded YouTube video into your Google Drive. You can get that from: https://console.cloud.google.com/apis/credentials
 
+Tested and written on Python 3.10.6
+
 Install requirements:
 
     pip install -r requirements.txt
