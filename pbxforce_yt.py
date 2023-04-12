@@ -27,7 +27,7 @@ parser.add_argument('--no-drive', action='store_true',
 args = parser.parse_args()
 
 CWD = Path.cwd()
-output_dir = CWD / 'yt-downloader'
+output_dir = CWD / 'protocolten'
 if output_dir.is_dir():
     pass
 else:
