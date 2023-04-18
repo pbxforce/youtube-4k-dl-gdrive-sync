@@ -187,7 +187,7 @@ try:
             exit()
 
     # Getting input stream and downloading it into specific directory
-    elif download_quality in ['1080p', '1440', '2160p']:
+    elif download_quality in ['1080p', '1440p', '2160p']:
         stream = yt.streams.filter(res=download_quality).first()
         audio_stream = yt.streams.filter(abr=audio_bitrate).first()
 
