@@ -10,7 +10,7 @@ Tested and written on Python 3.10.6
 
 Install requirements:
 
-    pip install -r requirements.txt
+    bash install.sh
 
 Run the script and follow the instructions:
 
